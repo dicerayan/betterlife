@@ -1,0 +1,214 @@
+  
+
+.header{
+    background-image:linear-gradient(
+        to right bottom, 
+        rgba(248, 196, 156, 0.75), 
+        rgba(253, 234, 129, 0.75)),
+        url(../img/exercise-exercise-equipment-fitness-209968.jpg);
+}  
+
+/*#################################*/
+
+ .part-1 {
+	 margin-bottom: 5rem;
+ }
+ 
+ .containers {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+
+.card-img {
+	border: none; 
+	border-radius: 1rem;
+	box-sizing: border-box;
+	width: 40rem;
+	height: 40rem;
+	position: relative;
+}
+
+.card-img-1 {
+	background-image: url("../img/yoga.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-2 {
+	background-image: url("../img/natation.jpg");
+	background-size: cover;
+	background-position: center;
+} 
+
+.card-img-3 {
+	background-image: url("../img/aerobic.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-4 {
+	background-image: url("../img/karate.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-5 {
+	background-image: url("../img/selfdefense.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-6 {
+	background-image: url("../img/pingpong.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.heading-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-2 h2 {
+	font-size: 5rem;
+}
+
+.heading-2 h2 a{
+	color: #A6CF45;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 9rem;
+}
+
+.card-img-7 {
+	background-image: url("../img/karate.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-8 {
+	background-image: url("../img/dance.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-9 {
+	background-image: url("../img/dancee.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.part-2 h1 {
+	color: #A95089;
+	font-size: 5rem;
+	padding-left: 10rem;
+}
+
+/*############################################*/
+
+.footer-contain {
+    background-color: #a95089;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    height: 10rem;
+
+}
+
+.first-part {
+    width: 33.33%;
+    text-align: left;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+.second-part {
+    width: 33.33%;
+    text-align: justify;
+    margin: auto;
+    border-left: .1rem solid rgb(255, 255, 255);
+    padding-left: 5%;
+}
+
+.third-part {
+    width: 33.33%;
+    text-align: right;
+    margin: auto;
+    border-left: .1rem solid rgb(255, 255, 255);
+}
+
+.footer-final {
+    text-align: center;
+    position: relative;
+    top: -1rem;
+    font-size: 1.6rem
+}
+
+/*RESPONSIVE PART*/
+@media only screen and (max-width:600px){
+	
+	.containers {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	
+	.card-img {
+		margin-bottom: 15px;
+		width: 100%;
+		height: 100vh;
+	}
+	
+    .footer-contain {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    height: auto;
+    }
+    .first-part,
+    .second-part,
+    .third-part{
+        width: 60%;
+        border: none;
+        border-bottom: 0.2rem solid #fff;
+        text-align: center;
+        margin: auto;
+        padding: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .first-part{
+        border: none;
+    }
+    .footer-final{
+		margin:auto;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:600px){
+    
+}
+@media only screen and (min-width:768px){
+   
+}
+@media only screen and (min-width:992px){
+  
+}
+@media only screen and (min-width:1200px){
+    
+}

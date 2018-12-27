@@ -1,0 +1,179 @@
+.header {
+    background-image: linear-gradient( to right bottom,
+    rgba(248, 196, 156, 0.75),
+    rgba(253, 234, 129, 0.75)),
+    url(../img/beautiful-bottle-daylight-1089146.jpg);
+}
+
+.about_container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: auto;
+}
+
+.ab_img {
+    width: 30rem;
+    height: 15rem;
+    padding-right: 3rem;
+
+}
+
+.about_para {
+    font-size: 3.5rem;
+    text-align: justify;
+}
+
+.grid-foto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 95%;
+    height:auto;
+    margin: auto;
+}
+.element{
+    padding: 0;
+    margin: 0;
+}
+.element img{
+    width: 41rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0.4);
+}
+
+
+.avis-container{
+    width: 95%;
+    margin: auto;
+}
+.title-avis{
+    color: #a95089;
+    font-size: 5rem;
+}
+.sub-avis-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.avis-card{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.img-profil{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: .6rem .3rem .8rem rgba(0, 0, 0, 0.3);
+    margin: 1rem;
+}
+.body-card{
+    background-color: #fff;
+    width: 100%;
+    box-shadow: .6rem .3rem .8rem rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    padding: 1%;
+
+}
+
+
+
+
+.footer-contain {
+    background-color: #a95089;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    height: 10rem;
+
+}
+
+.first-part {
+    width: 33.33%;
+    text-align: left;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+.second-part {
+    width: 33.33%;
+    text-align: justify;
+    margin: auto;
+    border-left: .1rem solid rgb(255, 255, 255);
+    padding-left: 5%;
+}
+
+.third-part {
+    width: 33.33%;
+    text-align: right;
+    margin: auto;
+    border-left: .1rem solid rgb(255, 255, 255);
+}
+
+.footer-final {
+    text-align: center;
+   position: relative;
+   top: -1rem;
+   font-size: 1.6rem;
+}
+/*RESPONSIVE PART*/
+@media only screen and (max-width:600px){
+   /*make a carousel here*/
+  
+  /*fin carousel*/
+
+    .footer-contain {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    height: auto;
+    }
+    .first-part,
+    .second-part,
+    .third-part{
+        width: 60%;
+        border: none;
+        border-bottom: 0.2rem solid #fff;
+        text-align: center;
+        margin: auto;
+        padding: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .first-part{
+        border: none;
+    }
+    .footer-final{
+        font-size: 2rem;
+    }
+}
+/*
+@media only screen and (min-width:600px){
+    
+}
+@media only screen and (min-width:768px){
+   
+}
+@media only screen and (min-width:992px){
+  
+}
+@media only screen and (min-width:1200px){
+    
+}*/

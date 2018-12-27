@@ -1,0 +1,464 @@
+
+@font-face{
+    font-family:"Century Gothic";
+   src: url('../font/century-gothic/CenturyGothic.ttf');
+}
+@font-face{
+    font-family:"Alex";
+   src: url('../font/champagne_limousines/cl.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+  /*  background: linear-gradient(to right bottom, #fef011, #a6cf45); /* linear gradient vertical #fef011 to #a6cf45*/
+   
+    /*font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7; 
+    color: #000;*/
+    font-family: "Alex", sans-serif;
+    background: linear-gradient(to right bottom, rgb(249, 251, 201), rgb(235, 244, 213));
+    padding: 0.1rem;
+    height: 95vh;
+    box-sizing: border-box;
+	width: 100%;
+}
+
+.position{
+   width: 100%;
+}
+
+.header{
+    height: 95vh; 
+    background-image:linear-gradient(
+        to right bottom, 
+        rgba(248, 196, 156, 0.75), 
+        rgba(253, 234, 129, 0.75)),
+        url(../img/balance-beach-body-1199588.jpg); /* f68634*/
+    background-size:cover;
+    background-position: top;
+    position: relative;
+     
+}  
+
+.text-logo-box{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Alex", sans-serif;
+    font-style: italic;
+}
+
+.logo{
+  height: 20rem; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveInBottom 3s ease-out 0.75s;
+    animation-fill-mode: backwards;
+}
+
+.heading-primary{
+    color: #fff;    
+    backface-visibility: hidden;
+}
+.heading-text{
+    display: block;
+    font-size: 5rem;
+    font-weight: 400;
+    width: 150%;
+    text-align: left;
+    text-shadow: -0.2rem 0rem 0.4rem rgba(0, 0, 0, 0.5); 
+    animation: moveInLeft 2s ease-out 1.75s;
+    animation-fill-mode: backwards;
+}
+
+@media screen and (max-width: 570px) {
+	.heading-text {
+		width: 100%;
+	}
+}
+
+nav{
+    position: relative;
+    top: -4.8rem;
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    
+    background-color: #A95089; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*.home-back{
+    background-color:rgb(252, 241, 189);
+   color: #a95089;
+}*/
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+.on-it{
+    position: relative;
+    top: -0.2rem;
+    box-shadow: 0.1rem 0.3rem 0.2rem rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
+    background-color: rgb(104, 8, 68);
+    z-index: 1;
+}
+ul li.topnav-right{
+    float: right;
+}
+
+ul.topnav li a{
+    display: block; 
+    text-decoration: none;
+    font-size: 4rem;
+    min-height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    padding: 0rem 4.5rem;
+}
+
+ul.topnav li a:hover{
+    color: #000;
+}
+
+ul.topnav li:nth-child(1){
+    background-color: rgba(7, 9, 4,0);
+}
+.btn{
+    border: none;
+    background-color: rgb(213, 168, 197);
+    height: 2rem;
+    position: relative;
+    top: 1.1rem;
+    left: 1.3rem;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.search-input{
+    border: none;
+    border-radius: 10rem;
+    background-color: rgb(213, 168, 197);
+    width: 30rem;
+    height: 2.5rem;
+    position: relative;
+    top:.8rem;
+    left: -1rem;
+    padding-left: 3rem;
+
+}
+
+nav li.dropdown-icon {
+	display: none;
+}
+
+/*###################################### NAV RESPONSIVE #################################*/
+@media screen and (max-width: 680px) {
+	.position {
+		width: 100%;
+	}
+	
+	nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		transition: top 0.3s;
+	}
+	
+	.on-it{
+    position: static;
+    z-index: none;
+}
+	
+	nav .topnav li:not(:nth-child(1)) {
+		display: none;
+	}
+	
+	nav .topnav li.dropdown-icon {
+		display: block;
+		float: right;
+	}
+	
+	.topnav.responsive .dropdown-icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	.topnav.responsive {
+		position: relative;
+		overflow: none;
+		height: 250px;
+	}
+	
+	nav .topnav.responsive li {
+		display: inline;
+		float: none;
+	}
+	
+	nav .topnav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+}
+
+    /*###################*/
+.video {
+    position: relative;
+    top: -2.4rem;
+    height: 98vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.letsgo {
+    color:black;
+    text-align: center;
+    font-family: "Alex",sans-serif;
+    font-size: 6rem; 
+    font-weight: bolder;
+}
+.reduction {
+    border-top: 1rem solid #fef011;
+    border-bottom: 1rem solid #fef011;
+     position: relative;
+    left: 30%;
+    
+    height: auto;
+    box-shadow: 0.1rem 0rem 0.3rem rgba(0, 0, 0, 0.5);
+   /* clip-path: polygon(0 0, 70% 0,70% 100%, 0 100% );*/
+}
+
+/*.text-reduction{
+    box-sizing: border-box;
+    float: left;
+    background-color: #a95089;
+    font-family: "Alex",sans-serif;
+    color: #fff;
+    z-index: 1;
+    clip-path: polygon(0 0, 80% 90%,0% 100% ); 
+}
+*/
+
+.action-pic {
+     width: 30%;
+    z-index: -1;
+    clip-path: polygon(0 0, 71% 0,100% 100%,0 100% );
+}
+
+.tennis-pic {
+    width: 30%;
+    position: relative;
+    left: -9%;
+    z-index: -2;
+    clip-path: polygon(1% 0, 71% 0,100% 100%,30% 100% );
+   
+}
+.girl-pic {
+     width: 30%;
+    position: relative;
+    left: -18%;
+    z-index: -3;
+    clip-path: polygon(1% 0, 100% 0,100% 100%,30% 100% );
+}
+
+/*
+.container-yelow{
+   height: 360px;
+   background-color:rgba(255, 255, 0, 0.596); 
+   clip-path: polygon(0 90%,100% 35%,100% 100%,0 100%);
+   position: relative;
+}
+.container-black{
+   height: 360px;
+   background-color: black; 
+   clip-path: polygon(0 97%,100% 35%,100% 100%,0 100%);
+   position: relative;
+   top: -360px;
+}
+.container-violet{
+   height: 360px;
+   background-color: #A95089; 
+   clip-path: polygon(100% 35%,0 100%,100% 100%);
+   position: relative;
+   top: -720px;
+}*/
+
+.container{
+    background-image:url(../img/Footer\ Background.png);
+    background-size:cover;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 64.65rem;
+    /*position: relative;
+   top: -1080px;*/
+}
+
+footer {
+	width: 100%;
+}
+
+.footer-find-us{
+    color: rgba(0,0,0,0.5);
+    width: 130%;
+    padding: 0rem;
+    font-size:7rem;
+    font-family: "Alex", sans-serif;
+    font-weight: 900;  
+    position: relative;
+    top: 34.7rem;
+    left: 19%;
+}
+
+.footer-image{
+   width: 50%;
+    border-radius: 15rem;
+}
+
+.footer-final{
+    padding-right: 1.5rem;
+    text-align: right;
+    position: relative;
+    top: 6.8rem;
+   
+}
+
+.info-location{
+    position: relative;
+    top: 2rem;
+    line-height: 3rem;
+}
+
+ul.info-location li {
+   list-style: none;
+   color: #fff;
+   font-family: "Alex", sans-serif;
+    font-size: 3.6rem;
+}
+
+.footer-fin{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.icon{
+    width: 1.8rem;
+}
+
+.icon-home{
+    width: 3.6rem;
+}
+
+
+@keyframes moveInLeft{
+    0%{
+       opacity: 0; 
+      transform: translateX(-10rem); 
+    }
+	
+    80%{
+        transform: translateX(2rem);
+    }
+    
+    100%{
+       opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0%{
+       opacity: 0; 
+    }    
+    100%{
+       opacity: 1;
+    }
+}
+
+/*RESPONSIVE PART*/
+@media only screen and (max-width:680px){
+    html{
+    font-size: 31.25%;
+    }
+	
+    .container{
+        height: auto;
+        background-image: none;
+        background-color: #a95089;
+        
+    }
+	
+	.containers {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	
+    .footer-find-us{
+        display: none;
+    }
+    .footer-final{
+        position: relative;
+        top: -1.8rem;
+        /*margin-left: 55%;*/
+		
+    }
+	
+	
+	
+    .footer-image{
+        display: none;
+    }
+	
+    ul.info-location li {
+		list-style: none;
+	    color: #fff;
+		font-family: "Alex", sans-serif;
+		font-size: 2.9rem;
+		
+	}
+}
+
+
+ 
+@media only screen and (min-width:600px){
+    html{
+    font-size: 37.5%;
+    }
+    
+}
+@media only screen and (min-width:768px){
+    html{
+    font-size: 50%;
+    }
+}
+@media only screen and (min-width:992px){
+ html{
+    font-size: 50%;  
+ } 
+}
+@media only screen and (min-width:1200px){
+    html{
+    font-size: 62.5%;
+    }
+}
+@media only screen and (max-width:400px){
+    .ab_img{
+    display: none;
+    }
+}
