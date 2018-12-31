@@ -673,7 +673,7 @@ footer img {
 	
 	.nav-left {
 		width: 4.1rem;
-		height: 700px;
+		height: 400px;
 	}
 	
 	.nav-left .rotate {
@@ -682,7 +682,7 @@ footer img {
 	}
 	
 	.marg {
-    padding-top: 65%;
+    padding-top: 50%;
     padding-bottom: 5%;
 	}
 	
@@ -695,18 +695,22 @@ footer img {
 		margin-top: 50px;
 	}
 	
+	.radiusImg {
+		padding-left: 7%;
+	}
+	
 	section .borderImg {
 		width: 10rem;
 		height: 10rem;
 	}
 	
 	.col-3.im {
-		width:20%
+		width:15%
 	}
 	
 	.col-3.a {
     width: 35%;
-    margin-right: 5%;
+    margin-right: 10%;
 	}
 	
 	.col-3.b {
@@ -723,4 +727,7 @@ footer img {
     letter-spacing: 0.35px;
 	}
 	
+	.rotate.none, .relative {
+		display: none;
+	}
 }

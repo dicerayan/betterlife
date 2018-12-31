@@ -81,7 +81,7 @@ if (isset($_GET['content']))
 							<ul class="nav-left  element">
 								<li class="rotate">Monitors</li>
 								<li class="rotate">Schedule</li>
-								<li class="rotate">Comments</li>
+								<li class="rotate none">Comments</li>
 							</ul>
 						</div>
 					</div>
