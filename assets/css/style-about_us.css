@@ -141,14 +141,14 @@
     align-content: space-between;
     padding: 1rem;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
     height: auto;
     }
     .first-part,
     .second-part,
     .third-part{
-        width: 60%;
+        width: 70%;
         border: none;
         border-bottom: 0.2rem solid #fff;
         text-align: center;
@@ -163,6 +163,21 @@
     .footer-final{
         font-size: 2rem;
     }
+}
+
+@media only screen and (max-width:327px){
+    .first-part,
+    .second-part,
+    .third-part{
+        width: 80%;
+	}
+}
+@media only screen and (max-width:289px){
+   .first-part,
+    .second-part,
+    .third-part{
+        width: 90%;
+	}
 }
 /*
 @media only screen and (min-width:600px){

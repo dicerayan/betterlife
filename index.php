@@ -88,7 +88,7 @@
         <div class="container-violet"></div>-->
         <div class="container">
             <div class="footer-find-us">Find us</div>
-            <div class="footer-final">
+            <div class="footer_final">
                 <a href="#" alt="map-itineraire"><img class="footer-image" src="assets/img/map.jpg"/></a><!--exercise-exercise-equipment-fitness-209968.jpg-->
 				
                 <ul class="info-location">

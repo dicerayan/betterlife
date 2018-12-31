@@ -45,7 +45,7 @@ if (isset($_GET['content']))
 			</header>
 			
 			<div class="nav-container" id="dropdownClick">
-				<div class="nav-item"><a href="home.php" class="nav-link">HOME</a></div>	
+				<div class="nav-item"><a href="../index.php" class="nav-link">HOME</a></div>	
 				<div class="nav-item"><a href="products.php" class="nav-link">PRODUCTS</a></div>	
 				<div class="nav-item"><a href="about_us.php" class="nav-link">ABOUT US</a></div>
 				<div class="nav-item apart">
@@ -86,7 +86,7 @@ if (isset($_GET['content']))
 						</div>
 					</div>
 					
-					<div class="col-3">
+					<div class="col-3 a">
 						<div class="marg">
 							<div class="radiusImg element">
 								<img src="../assets/img/yoge.jpg" alt="yoge" class="borderImg" />
@@ -101,10 +101,10 @@ if (isset($_GET['content']))
 						</div>
 					</div>
 					
-					<div class="col-3">
+					<div class="col-3 b">
 					</div>
 					
-					<div class="col-3">
+					<div class="col-3 c">
 						<div class="marg">
 							<div class="radiusImg  element">
 								<img src="../assets/img/abdos.jpg" alt="yoge" class="borderImg" />
@@ -141,13 +141,13 @@ if (isset($_GET['content']))
 							<div class="aside">
 								<label for="nom">Nom:</label><input type="text" name="nom" id="nom"/>
 								<br>
-								<label for="email">email:</label><input type="email" name="email" id="email"/>
+								<label for="prenom">Prenom:</label><input type="text" name="prenom" id="prenom"/>
 								<br>
-								<label for="adresse">Adresse:</label><input type="text" name="adresse" id="adresse"/>
-								<br>
+								
+								
 							</div>
 							<div class="aside side">
-								<label for="prenom">Prenom:</label><input type="text" name="prenom" id="prenom"/>
+								<label for="email">email:</label><input type="email" name="email" id="email"/>
 								<br>
 								<label for="telephone">Telephone:</label><input type="tel" name="telephone" id="telephone"/>
 								<br>

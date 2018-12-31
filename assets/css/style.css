@@ -213,15 +213,16 @@ nav li.dropdown-icon {
 	nav .topnav.responsive li a {
 		display: block;
 		text-align: left;
+		font-size: 30px;
 	}
 }
 
     /*###################*/
 .video {
     position: relative;
-    top: -2.4rem;
+   /* top: -2.4rem;rgba(0, 0, 0, 0.8)*/
     height: 98vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
 }
 .letsgo {
     color:black;
@@ -234,11 +235,11 @@ nav li.dropdown-icon {
     border-top: 1rem solid #fef011;
     border-bottom: 1rem solid #fef011;
      position: relative;
-    left: 30%;
-    
+    /*left: 30%;*/
+    max-width:90%;
     height: auto;
     box-shadow: 0.1rem 0rem 0.3rem rgba(0, 0, 0, 0.5);
-   /* clip-path: polygon(0 0, 70% 0,70% 100%, 0 100% );*/
+   clip-path: polygon(0 0, 70% 0,70% 100%, 0 100% );
 }
 
 /*.text-reduction{
@@ -322,7 +323,7 @@ footer {
     font-family: "Alex", sans-serif;
     font-weight: 900;  
     position: relative;
-    top: 34.7rem;
+    top: 41.7rem;
     left: 19%;
 }
 
@@ -331,7 +332,7 @@ footer {
     border-radius: 15rem;
 }
 
-.footer-final{
+.footer_final{
     padding-right: 1.5rem;
     text-align: right;
     position: relative;
@@ -341,15 +342,15 @@ footer {
 
 .info-location{
     position: relative;
-    top: 2rem;
-    line-height: 3rem;
+    top: 7rem;
+    line-height: 2rem;
 }
 
 ul.info-location li {
    list-style: none;
    color: #fff;
    font-family: "Alex", sans-serif;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
 }
 
 .footer-fin{
@@ -412,13 +413,13 @@ ul.info-location li {
     .footer-find-us{
         display: none;
     }
-    .footer-final{
+	
+    .footer_final{
         position: relative;
         top: -1.8rem;
-        /*margin-left: 55%;*/
+       margin-left: 65%;
 		
     }
-	
 	
 	
     .footer-image{
@@ -432,10 +433,25 @@ ul.info-location li {
 		font-size: 2.9rem;
 		
 	}
+	.info-location{
+    position: relative;
+    top: 2rem;
+    line-height: 2rem;
+}
 }
 
+@media only screen and (max-width:298px){
+	.footer_final {
+       margin-left: 35%;
+	}		
+}
 
- 
+@media only screen and (max-width:249px){
+	.footer_final {
+       margin-left: 22%;
+	}		
+}
+
 @media only screen and (min-width:600px){
     html{
     font-size: 37.5%;

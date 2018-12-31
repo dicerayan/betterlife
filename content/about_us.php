@@ -33,7 +33,7 @@
 
     <nav id="navbar">
         <ul class="topnav" id="dropdownClick">
-            <li><a href="../home.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="products.php">Products</a></li>
             <li><a class="on-it" href="about_us.php">About us</a></li>
 

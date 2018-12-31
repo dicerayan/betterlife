@@ -1,16 +1,16 @@
 @font-face {
 	font-family: "Century Gothic";
-	src: url(../assets/font/century-gothic/CenturyGothic.ttf);
+	src: url(../font/century-gothic/CenturyGothic.ttf);
 }
 
 @font-face {
 	font-family: "Alex Brush";
-	src: url(assets/font/AlexBrush-Regular.ttf);
+	src: url(../font/AlexBrush-Regular.ttf);
 }
 
 @font-face {
 	font-family: "Champagne Limousines";
-	src: url(../assets/font/champagne_limousines/clbi.ttf);
+	src: url(../font/champagne_limousines/clbi.ttf);
 }
 
 header, nav, section, footer {
@@ -396,9 +396,7 @@ a:hover {
 		font-size: 50%;
 	}
 	
-	.marg-left p {
-		display: none;
-	}
+	
 }
 /* iiiiiiiiiiiiiiiiiiii llllllllllllllllllllllllllllllll */
 
@@ -447,7 +445,7 @@ a:hover {
 	position: relative;
 	top: -200px;
 	left: 100px;
-	border: 1px solid black;
+	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	box-sizing: border-box;
@@ -668,3 +666,61 @@ footer img {
     }
 }
 */
+@media only screen and (max-width: 400px){
+	.nav-left .rotate {
+		padding-left: 1rem;
+	}
+	
+	.nav-left {
+		width: 4.1rem;
+		height: 700px;
+	}
+	
+	.nav-left .rotate {
+		padding-top: 40px;
+		font-size: 18px;
+	}
+	
+	.marg {
+    padding-top: 65%;
+    padding-bottom: 5%;
+	}
+	
+	.marg-left label {
+		margin-left: 2rem;
+		font-size: 2rem;
+	}
+	
+	.marg-left p:first-of-type {
+		margin-top: 50px;
+	}
+	
+	section .borderImg {
+		width: 10rem;
+		height: 10rem;
+	}
+	
+	.col-3.im {
+		width:20%
+	}
+	
+	.col-3.a {
+    width: 35%;
+    margin-right: 5%;
+	}
+	
+	.col-3.b {
+		display: none;
+	}
+	
+	.col-3.c {
+		width: 35%;
+	}
+	
+	.marg-left p {
+    
+    font-size: 1.29rem;
+    letter-spacing: 0.35px;
+	}
+	
+}
