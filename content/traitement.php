@@ -20,12 +20,11 @@ $q->closeCursor();
 
 if (isset($_POST['sent'])) 
 {
-	if (!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email']) AND !empty($_POST['adresse']) AND !empty($_POST['telephone']))
+	if (!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email']) AND !empty($_POST['telephone']))
 	{
 		$nom = htmlspecialchars($_POST['nom']);
 		$prenom =	htmlspecialchars($_POST['prenom']);
 		$email = htmlspecialchars($_POST['email']);
-		$adresse = htmlspecialchars($_POST['adresse']);
 		$telephone = htmlspecialchars($_POST['telephone']);
 		
 		if (filter_var($email, FILTER_VALIDATE_EMAIL))
@@ -50,13 +49,12 @@ if (isset($_POST['sent']))
 			
 			
 			
-				$q = $bd->prepare('INSERT INTO reservation(nom, prenom, email, telephone, adresse) VALUES(:nom, :prenom, :email, :telephone, :adresse)');
+				$q = $bd->prepare('INSERT INTO reservation(nom, prenom, email, telephone) VALUES(:nom, :prenom, :email, :telephone)');
 
 				$q->execute(array('nom' => $nom,
 							   'prenom' => $prenom,
 							   'email' => $email,
-							   'telephone' => $telephone,
-							   'adresse' => $adresse
+							   'telephone' => $telephone	  
 							   ));
 
 				echo 'Reservation reussie';

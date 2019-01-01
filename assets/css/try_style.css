@@ -57,8 +57,8 @@ header {
 .logo-box
 {
 	position: absolute;
-	top: 10px;
-	left: 15px;
+	top: 5px;
+	left: 10px;
 }
 
 .logo {
@@ -77,9 +77,9 @@ header {
 	transform: translate(0,-50%);
 }
 .middle-top h2 {
-	font-family: "Champagne Limousines", "Alex Brush", "Century Gothic", serif, sans-serif;
+	font-family: "Alex Brush", "Century Gothic", serif, sans-serif;
 	color: white;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: 0.2rem;
 	font-size: 20px;
 }
@@ -88,14 +88,14 @@ header {
 @media screen and (max-width: 600px)
 {	
 	.middle-top {
-		left: 150px;
+		left: 100px;
 		
 	}
 	
 	.middle-top h2 {
-		font-size: 1.5vh;
-		letter-spacing: 0.009rem;
-		font-weight: light;
+		font-size: 3.5vh;
+		letter-spacing: 0.005rem;
+		font-weight: lighter;
 	}
 }
 
@@ -368,7 +368,7 @@ section .borderImg {
 
 .marg-left label {
 	text-align: center;
-	margin-left: 65px;
+	/*margin-left: 65px;*/
 	margin-top: 0;
 	font-size: 4rem;
 	font-weight: bold;
@@ -443,8 +443,9 @@ a:hover {
 
 .reservation {
 	position: relative;
-	top: -200px;
-	left: 100px;
+	top: -100px;
+	left: 50%;
+	transform: translate(-50%);
 	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
@@ -454,6 +455,7 @@ a:hover {
 	padding-top: 10px;
 	border-radius: 20px;
 	z-index: 0;
+	width: 70%;
 } 
 
 
@@ -477,18 +479,20 @@ a:hover {
 	height: 25px;
 	color: rgba(0, 0, 0, .5);
 	font-size: 20px;
+	padding: 2px;
 }
 
 .form input[type="submit"] {
-    background-color: #A95089;
 	padding: 5px;
-	color: white;
+	color: black;
+	background-color: rgba(0, 0, 0, 0.14);
 }
 .form input[type="submit"]:hover {
-	background-color: red;
+	background-color: rgba(0, 0, 0, 0.42);
 }
 
 .heading-2 {
+	font-family: "Century Gothic";
 	font-size: 3rem;
 	padding-bottom: 5px;
 }
@@ -524,12 +528,19 @@ a:hover {
 		display: block;
 		position: relative;
 		top: 0;
-		left: 10%;
-		
-		width: 85vw;
+		left: 1%;
+		transform: initial;
+		background-color: rgba(247, 247, 247);
+		width: unset;
 		margin-bottom: 5px;
+		border-radius: 5px;
+		padding: 2px;
 	}
-	
+	.heading-2 {
+	font-family: "Century Gothic";
+	font-size: initial;
+	padding-bottom: 5px;
+}
 	.form {
 	
 		display: initial;
@@ -540,10 +551,20 @@ a:hover {
 		padding: 0;
 	}
 	
+	.reservation .form input {
+		border: 1px solid black;
+		width: 98%;
+		margin-bottom: 10px;
+		
+	}
+	
 	.form input[type="submit"] {
 		background-color: red;
 		text-align: center;
-		margin-bottom: 0px;
+		margin-bottom: 5px;
+		color: black;
+		border: none;
+		 background-color: rgba(247, 247, 247);
 	}
 }
 
@@ -667,6 +688,15 @@ footer img {
 }
 */
 @media only screen and (max-width: 400px){
+	
+	.middle-top {
+		left: 100px;
+	}
+	
+	.middle-top h2 {
+		font-size: 3.5vh;
+	}
+	
 	.nav-left .rotate {
 		padding-left: 1rem;
 	}

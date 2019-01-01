@@ -54,7 +54,7 @@ if (isset($_GET['content']))
 						<input class="input" type="text" placeholder="Search.." name="search">
 					</form>
 
-					<!--<span class=""><a href="#search"><img src="img/magnifier.png alt="search-button" class="search-icon"></a></span><input type="text" placeholder="Search" class="input" />-->
+					
 				</div>
 				<div class="nav-item dropdown-icon"><a href="#" onclick="dropdownMenu()">&#9776;</a></div>
 			</div>
@@ -131,7 +131,7 @@ if (isset($_GET['content']))
 							<div class="comment"><img src="../assets/img/try.png" alt="profil" class="profil" /><span class="border">ffefwfwfwwfwfwff</span></div>
 						</div>
 				
-					
+			</div>		
 				</div>
 				
 				<div class="reservation">
@@ -143,8 +143,6 @@ if (isset($_GET['content']))
 								<br>
 								<label for="prenom">Prenom:</label><input type="text" name="prenom" id="prenom"/>
 								<br>
-								
-								
 							</div>
 							<div class="aside side">
 								<label for="email">email:</label><input type="email" name="email" id="email"/>
@@ -154,8 +152,10 @@ if (isset($_GET['content']))
 								<input type="submit" value="Envoyer" name="sent" />
 							</div>
 						</form>
-				</div>
-			</div>
+				</div>	
+								
+							
+			
 					<!-- ################# Footer ############### -->
 		</div>
 		
