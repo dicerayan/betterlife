@@ -68,7 +68,7 @@ if (isset($_GET['content']))
 					<h1 class="heading-yoga">
 						<?php if (isset($content)){ echo $content;}else{header('location: products.php');}?>
 					</h1>
-					<p class="p-yoga">bla bla blablabla bla bla bla bla bla bla blabla blablablabla bla bla bla bla la bla bla bla blablablablablabla blabla bla blablabla bla</p>
+					<p class="p-yoga"> bla bla bla bla bla bla blabla blablablabla bla bla bla blablabla bla</p>
 					<h3 class="heading-money"><span class="money-talk">$35</span>/month</h3>-->
 				</div>
 			</div>
