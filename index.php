@@ -88,23 +88,28 @@
         <div class="container-violet"></div>-->
         <div class="container">
             <div class="footer-find-us">Find us</div>
-            <div class="footer_final">
+            <div class="footer_final footer-contain">
                 <a href="#" alt="map-itineraire"><img class="footer-image" src="assets/img/map.jpg"/></a><!--exercise-exercise-equipment-fitness-209968.jpg-->
 				
                 <ul class="info-location">
-                    <li>146,Rue des Collines, Vivy Mitchel</li>
-                    <li>Petion-Ville, Haiti</li>
-                    <br/>
-                    <li>(509)3873 8789 <img class="icon-home" src="assets/img/phone.png" alt=""/></li>
-                    <br/>
-                    <li>betterlifeclub18@gmail.com <img class="icon-home" src="assets/img/mail_icon.png" alt=""/></li>
-                    <br/>
-                    <li>
-						<a href="#Facebook" alt="facebook.com"><img class="icon-home" src="assets/img/fb.png" /></a>
-						<a href="#Instagram" alt="instagram.com"><img class="icon-home" src="assets/img/ig.png" /></a>
-						<a href="#Twitter" alt="twitter.com"><img class="icon-home" src="assets/img/twitter_icon.png" /></a>
-                    </li>
-
+					<div class="first-part">
+						<li>146,Rue des Collines, Vivy Mitchel</li>
+						<li>Petion-Ville, Haiti</li>
+					</div>
+						<br/>
+					<div class="second-part">
+						<li>(509)3873 8789 <img class="icon-home" src="assets/img/phone.png" alt=""/></li>
+						<br/>
+						<li>betterlifeclub18@gmail.com <img class="icon-home" src="assets/img/mail_icon.png" alt=""/></li>
+					</div>
+						<br/>
+					<div class="third-part">
+						<li>
+							<a href="#Facebook" alt="facebook.com"><img class="icon-home" src="assets/img/fb.png" /></a>
+							<a href="#Instagram" alt="instagram.com"><img class="icon-home" src="assets/img/ig.png" /></a>
+							<a href="#Twitter" alt="twitter.com"><img class="icon-home" src="assets/img/twitter_icon.png" /></a>
+						</li>
+					</div>
                 </ul>
             </div>
         </div>
@@ -114,8 +119,10 @@
             <br />Made by Tandem
             <br /> Octobre 2018
         </div>
+	</div>
     </footer>
 </div>
+
 	<script>
 		function dropdownMenu() {
 			 var x = document.getElementById("dropdownClick");
