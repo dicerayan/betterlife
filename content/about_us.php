@@ -53,7 +53,7 @@
     <!-- presentation-->
     <div class="about_container">
         <img src="../assets/img/logo.png" class="ab_img">
-        <p class="about_para">histoire biographie Le nombre de piles obtenus au cours d’une série de n lancers de pile ou face ou plus généralement dans un jeu de hasard (roulette,dés,...), le gain d’un parieur est une grandeur variable qui dépend du déroulement aléatoire du jeu.</p>
+        <p class="about_para">Better Life Club vous offre des cours de : Yoga, Karate, Aerobic, Natation, Danse, Afro, Latino, Konpa, Folklore, Hip-Hop dance, Ki-Zomba, self-Defense. Pour enfants et adultes Better Life Club spa pour vos seances de massage de bien-etre. Better Life Club vous propose egalement son espace attrayant pour vos celebrations de mariages et reception. Pour amples informations, ecrivez nous sur Betterlifeclub18@gmail.com ou passez nous voir a Vivy Mitchell Petion-ville Haiti. Better Life Club The best place for a better life!</p>
     </div>
 <br/>
 <br/>
@@ -126,7 +126,7 @@
                <a href="#Twitter" alt="twitter.com"> <img class="icon" src="../assets/img/twitter_icon.png" /></a>
             </div>
             <div class="second-part">
-                <img class="icon" src="../assets/img/phone.png" /> (509) 45 67 89 00
+                <img class="icon" src="../assets/img/phone.png" /> (509) 38 73 8789
                 <br /> <img class="icon" src="../assets/img/mail_icon.png" /> betterlifeclub18@gmail.com
     
             </div>

@@ -137,7 +137,7 @@
                 <a href="#Twitter" alt=".com"><img class="icon" src="../assets/img/twitter_icon.png" /></a>
             </div>
             <div class="second-part">
-                <img class="icon" src="../assets/img/phone.png" /> (509) 45 67 89 00
+                <img class="icon" src="../assets/img/phone.png" /> (509) 38 73 8789
                 <br/> <img class="icon" src="../assets/img/mail_icon.png" /> betterlifeclub18@gmail.com
 
             </div>
