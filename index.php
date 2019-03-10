@@ -93,7 +93,7 @@
 				
                 <ul class="info-location">
 					<div class="first-part">
-						<li>146,Rue des Collines, Vivy Mitchel</li>
+						<li><a href="https://goo.gl/maps/aRTkgvMSNfP2" alt="map-itineraire" style="text-decoration:none;color: white">146,Rue des Collines, Vivy Mitchel</a></li>
 						<li>Petion-Ville, Haiti</li>
 					</div>
 						<br/>
