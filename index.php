@@ -89,7 +89,7 @@
         <div class="container">
             <div class="footer-find-us">Find us</div>
             <div class="footer_final footer-contain">
-                <a href="#" alt="map-itineraire"><img class="footer-image" src="assets/img/map.jpg"/></a><!--exercise-exercise-equipment-fitness-209968.jpg-->
+                <a href="https://goo.gl/maps/aRTkgvMSNfP2" alt="map-itineraire"><img class="footer-image" src="assets/img/map.jpg"/></a><!--exercise-exercise-equipment-fitness-209968.jpg-->
 				
                 <ul class="info-location">
 					<div class="first-part">
