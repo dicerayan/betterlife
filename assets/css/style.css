@@ -306,9 +306,9 @@ nav li.dropdown-icon {
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: space-between;
-    height: 64.65rem;*/
+    height: 64.65rem;
    position: relative;
-   top: -1080px;
+   
 }
 
 /* i'm trying to finish this project so hard */
@@ -454,10 +454,11 @@ ul.info-location li {
     line-height: 2rem;*/
 	line-height: initial;
 	 top: 1rem;
-	
+
 }
- .footer-final.footer-contain ul{
+ .footer_final.footer-contain ul{
     display: flex;
+	flex-direction: column-reverse;
 	justify-content: center;
     align-content: space-between;
     padding: 1rem;

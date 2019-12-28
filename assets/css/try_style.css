@@ -102,7 +102,7 @@ header {
  /*############## Nav ###########*/
  
  .nav-container {
-	background-color: #A95089;
+	background-color: #a95089;
 	width: 100%;
 	height: 50px;
 	overflow: hidden;
@@ -113,15 +113,15 @@ header {
 
 .nav-container .nav-item {
 	float: left;
-	padding: 20px;
-	padding-top: 10px;
-	padding-right: 30px;
+	padding: 2%;
+	padding-top: 1%;
+	padding-right: 3%;
 	letter-spacing: 0.3rem;
 	font-weight: 800;
 }
 
 .nav-container .nav-item:nth-child(1) {
-	padding-left: 100px;
+	padding-left: 7%;
 }
 
 .nav-container .apart {
@@ -532,7 +532,7 @@ a:hover {
 		display: block;
 		position: relative;
 		top: 0;
-		left: 1%;
+		left: 0%;
 		transform: initial;
 		background-color: rgba(247, 247, 247);
 		width: unset;
@@ -572,6 +572,70 @@ a:hover {
 	}
 }
 
+/* still tryna fix this out */
+@media screen and (min-width:681px) { 
+@media screen and (max-width:1000px){
+	.main {
+		margin-top: 100px;
+	}
+	
+	.img-box {
+		margin: 0;
+	}
+	
+	/*.relative {
+		left: 100px;
+    }*/
+	
+	/*.reservation {
+		display: block;
+		position: relative;
+		top: 0;
+		left: 0%;
+		transform: initial;
+		background-color: rgba(247, 247, 247);
+		width: unset;
+		margin-bottom: 5px;
+		border-radius: 5px;
+		padding: 2px;
+	}*/
+	
+	.heading-2 {
+	font-family: "Century Gothic";
+	font-size: initial;
+	padding-bottom: 5px;
+}
+
+	.form {
+		position: relative;
+		left: 20%;
+		
+		display: initial;
+		background-color: rgba(247, 247, 247);
+	}
+	
+	.side {
+		padding: 0;
+	}
+	
+	.reservation .form input {
+		border: 1px solid black;
+		width: 75%;
+		margin-bottom: 10px;
+		display: block;
+	}
+	
+	.form input[type="submit"] {
+		background-color: red;
+		text-align: center;
+		margin-bottom: 5px;
+		color: black;
+		border: none;
+		 background-color: rgba(247, 247, 247);
+	}
+}
+}
+
 /*########### Footer ##########*/
 footer {
 	margin-bottom: 0;
@@ -579,7 +643,7 @@ footer {
 }
 
 .footer {
-	background-color: #A95089;
+	background-color:#a95089;
 	line-height: 1;
 	display: flex;
 	justify-content: space-between;

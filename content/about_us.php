@@ -62,12 +62,12 @@
 
     <!-- CAROUSSEL GRID PHOTO-->
     <div class="grid-foto">
-        <div class="element"> <img class="photo-1" src="../assets/img/balance-beach-body-1199588.jpg" > </div>
-        <div class="element"> <img class="photo-2" src="../assets/img/active-adult-aerobic-864990.jpg"> </div>
-        <div class="element"> <img class="photo-3" src="../assets/img/balance-break-dance-break-dancer-3156.jpg"> </div>
-        <div class="element"> <img class="photo-4" src="../assets/img/balance-beach-body-1199588.jpg"> </div>
-        <div class="element"> <img class="photo-5" src="../assets/img/active-beautiful-beauty-866027.jpg"> </div>
-        <div class="element"> <img class="photo-6" src="../assets/img/balance-break-dance-break-dancer-3156.jpg"> </div>
+        <div class="element"> <img class="photo-1" src="../assets/img/aquagym.jpg" > </div>
+        <div class="element"> <img class="photo-2" src="../assets/img/karateka.jpg"> </div>
+        <div class="element"> <img class="photo-3" src="../assets/img/konpa1.jpg"> </div>
+        <div class="element"> <img class="photo-4" src="../assets/img/boxe.jpg"> </div>
+        <div class="element"> <img class="photo-5" src="../assets/img/natation1.jpg"> </div>
+        <div class="element"> <img class="photo-6" src="../assets/img/selfdefense1.jpg"> </div>
         
     </div>
     <br/>

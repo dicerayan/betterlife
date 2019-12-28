@@ -54,7 +54,7 @@
 }
 
 .card-img-5 {
-	background-image: url("../img/selfdefense.png");
+	background-image: url("../img/selfdefense.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -93,13 +93,13 @@ a:hover {
 }
 
 .card-img-8 {
-	background-image: url("../img/dance.jpg");
+	background-image: url("../img/latino.jpg");
 	background-size: cover;
 	background-position: center;
 }
 
 .card-img-9 {
-	background-image: url("../img/dancee.jpg");
+	background-image: url("../img/konpa1.jpg");
 	background-size: cover;
 	background-position: center;
 }

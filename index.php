@@ -53,7 +53,7 @@
 
     <!-- video part -->
     <video class="video" controls autoplay poster="assets/img/active-adult-aerobic-864990.jpg" width="100%" height="95%">
-        <source src="assets/video/vid.mp4" type="video/mp4" />
+        <source src="assets/video/betterlifevid.mp4" type="video/mp4" />
     </video>
 
 <br/>
